@@ -1,0 +1,40 @@
+/*
+ Student Name: Miguel Poma
+ File Name: training.css
+ Date: Dec 6, 2023
+*/
+
+/* Apply border style and collapse borders */
+.training-table {
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* Styling the title and "th" elements */
+h2 {
+    color: #333;
+}
+
+th {
+    background-color: #03787c;
+    padding: 12px;
+    text-align: left;
+    color: white;
+
+}
+
+/* Apply cell padding style to "th" and "td" elements */
+th, td {
+    padding: 10px;
+}
+
+/* Use a CSS class to apply alternating row colors */
+.training-table tbody tr:nth-child(even) {
+    background-color: #7093f6;
+}
+
+/* Highlight table row on hover */
+.training-table tbody tr:hover {
+    background-color: #d4e8f7;
+}
